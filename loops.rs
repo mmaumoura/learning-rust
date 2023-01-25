@@ -7,13 +7,13 @@ fn main () {
         if contador == 5 {
             continue;
         }
-        println!("{} x {} = {}", multiplicador, contador, multiplicador x contador);
+        println!("{} x {} = {}", multiplicador, contador, multiplicador * contador);
     }
 
     contador = 0;
     loop {
         contador += 1;
-        println!("{} x {} = {}", multiplicador, contador, multiplicador x contador);
+        println!("{} x {} = {}", multiplicador, contador, multiplicador * contador);
         if contador == 10 {
             break;
         }
@@ -21,7 +21,7 @@ fn main () {
     
     //for i in 1..=10 - sinônimo      
     for i in 1..11 { //realiza um intervalo entre 1 e 10, não chega até o último número.
-        println!("{} x {} = {}", multiplicador, i, multiplicador x i);
+        println!("{} x {} = {}", multiplicador, i, multiplicador * i);
     }
 
 }

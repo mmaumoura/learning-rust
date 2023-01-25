@@ -11,7 +11,7 @@ fn main(){
         println!("Proibida a entrada!");
     }
 
-    let condicao = if maior_de_idade { "maior" } else { "menor" }
+    let condicao = if maior_de_idade { "maior" } else { "menor" };
 
     println!("É {} de idade!", condicao);
 } 
